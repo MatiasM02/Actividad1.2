@@ -1,0 +1,61 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-button expand="block" [routerLink]="['/home']" >
+      <ion-icon name="home-outline"></ion-icon>
+      Inicio
+    </ion-button>
+    <hr>
+    <ion-button expand="block" [routerLink]="['/acerca-de']">
+      <ion-icon slot="start" name="star"></ion-icon>
+      Acerca De
+    </ion-button>
+    <hr>
+    <ion-button expand="block" [routerLink]="['/contacto']">
+      <ion-icon name="call-outline"></ion-icon>
+      Contacto
+    </ion-button>
+    <hr>
+    <ion-button expand="block" [routerLink]="['/resultados']"><ion-icon name="football-outline"></ion-icon>Resultados</ion-button>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Inicio</ion-title>
+      <ion-button slot="end" [routerLink]="['/login']"><ion-icon name="person-circle-outline"></ion-icon>Login</ion-button>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <h1>Ultimas Noticias</h1>
+    <ion-card>
+      <img alt="" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/AGFSWASZRBELLJOFO5E42HSQ4M.jpg" />
+      <ion-card-header>
+        <ion-card-title>Cristiano Ronaldo</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        Cristiano Ronaldo firma un millonario contrato con el equipo al nassr fc hasta el año 2025 con un salario de 200 millones de euro al año.
+      </ion-card-content>
+      <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 1, jugador: 'Cristiano Ronaldo', titulo: 'Cristiano Ronaldo nuevo jugador de al nassr fc'  }"><ion-icon name="add-outline"></ion-icon>Informacion</ion-button>
+    </ion-card>
+    <hr>
+    <ion-card>
+      <img alt="" src="https://www.latercera.com/resizer/rboTcauayQ8PelhNuXTmN6xTj7Y=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/7HXLC3XJLZEMFU3XRPSHW2NU2M.jpg" />
+      <ion-card-header>
+        <ion-card-title>Lionel Messi</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        Lionel messi esta a un paso de renovar contrato con el Paris Saint Germain hasta el año 2024.
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</div>

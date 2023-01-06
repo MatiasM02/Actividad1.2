@@ -1,0 +1,130 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Resultados</ion-title>
+    <ion-button slot="start" [routerLink]="['/home']"><ion-icon name="arrow-back-outline"></ion-icon></ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Premier League</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F615.png" />
+          </ion-thumbnail>
+          <ion-label> 0   -   1 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F577.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: '1', partido: 'Southampton v/s Nottingham Forest', fecha: '04-01-2023', resultado: '0   -   1', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F615.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F577.png', posesion1: '62.5%', posesion2: '37.5%', offside1: '1', offside2: '0', tirosEsquina1: '6', tirosEsquina2:'2'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F571.png" />
+          </ion-thumbnail>
+          <ion-label> 2   -   2 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F198.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 2, partido: 'Leeds United v/s West Ham United', fecha: '04-01-2023', resultado: '2   -   2', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F571.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F198.png', posesion1: '63.3%', posesion2: '36.7%', offside1: '3', offside2: '3', tirosEsquina1: '8', tirosEsquina2:'1'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F199.png" />
+          </ion-thumbnail>
+          <ion-label> 1   -   1 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F203.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 3, partido: 'Aston Villa v/s Wolverhampton', fecha: '04-01-2023', resultado: '1   -   1', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F199.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F203.png', posesion1: '56.0%', posesion2: '44.0%', offside1: '1', offside2: '4', tirosEsquina1: '7', tirosEsquina2:'8'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F567.png" />
+          </ion-thumbnail>
+          <ion-label> 0   -   4 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F202.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 4, partido: 'Crystal Palace v/s Tottenham Hotspur', fecha: '04-01-2023', resultado: '0   -   4', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F567.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F202.png', posesion1: '46.7%', posesion2: '53.3%', offside1: '1', offside2: '2', tirosEsquina1: '10', tirosEsquina2:'4'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <hr>
+  <hr>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Serie A</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F411.png" />
+          </ion-thumbnail>
+          <ion-label> 1   -   2 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F23.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 5, partido: 'Us Salernitana v/s Milán', fecha: '04-01-2023', resultado: '1   -   2', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F411.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F23.png', posesion1: '44.3%', posesion2: '55.7%', offside1: '1', offside2: '4', tirosEsquina1: '6', tirosEsquina2:'2'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F724.png" />
+          </ion-thumbnail>
+          <ion-label> 1   -   2 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F194.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 6, partido: 'Sassuoloo v/s Sampdoria', fecha: '04-01-2023', resultado: '1   -   2', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F724.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F194.png', posesion1: '67.7%', posesion2: '32.3%', offside1: '1', offside2: '6', tirosEsquina1: '9', tirosEsquina2:'1'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F400.png" />
+          </ion-thumbnail>
+          <ion-label> 2   -   2 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F248.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 7, partido: 'Spezia v/s Atalanta', fecha: '04-01-2023', resultado: '2   -   2', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F400.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F248.png', posesion1: '34.8%', posesion2: '65.2%', offside1: '1', offside2: '1', tirosEsquina1: '3', tirosEsquina2:'8'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F722.png" />
+          </ion-thumbnail>
+          <ion-label> 1   -   1 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F409.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 8, partido: 'Torino v/s Hellas Verona', fecha: '04-01-2023', resultado: '1   -   1', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F722.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F409.png', posesion1: '66.7%', posesion2: '33.3%', offside1: '2', offside2: '0', tirosEsquina1: '6', tirosEsquina2:'3'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F16.png" />
+          </ion-thumbnail>
+          <ion-label> 1   -   0 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F191.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 9, partido: 'Inter de Milán v/s Napoli', fecha: '04-01-2023', resultado: '1   -   0', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F16.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F191.png', posesion1: '36.6%', posesion2: '63.4%', offside1: '4', offside2: '2', tirosEsquina1: '5', tirosEsquina2:'4'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F386.png" />
+          </ion-thumbnail>
+          <ion-label> 0   -   1 </ion-label>
+          <ion-thumbnail slot="end">
+            <img alt="" src="https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F17.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-button expand="block" [routerLink]="['/query']" [queryParams]="{id: 10, partido: 'US Cremonese v/s Juventus', fecha: '04-01-2023', resultado: '0   -   1', equipo1: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F386.png', equipo2: 'https://image-service.onefootball.com/transform?w=54&h=54&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252Fteams%252F164%252F17.png', posesion1: '44.0%', posesion2: '56.0%', offside1: '2', offside2: '2', tirosEsquina1: '3', tirosEsquina2:'8'}"><ion-icon name="add-outline"></ion-icon>Ver Resultados</ion-button>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
